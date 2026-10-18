@@ -1,0 +1,16 @@
+{
+  "allowManagedHooksOnly": true,
+  "hooks": {
+    "UserPromptSubmit": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "/usr/local/libexec/claude-touchid/claude-prompt-guard.sh",
+            "timeout": 300
+          }
+        ]
+      }
+    ]
+  }
+}
