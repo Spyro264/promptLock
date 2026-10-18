@@ -1,0 +1,11 @@
+# Compiled fingerprint program (users build it from source)
+touchid-check
+
+# Personal logs
+*.log
+
+# macOS system files
+.DS_Store
+
+# Personal Claude Code settings
+settings.local.json
